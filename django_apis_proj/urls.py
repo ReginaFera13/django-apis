@@ -22,5 +22,5 @@ urlpatterns = [
     path('api/v1/got/', include("got_app.urls")),
     path('api/v1/imdb/', include("imdb_app.urls")),
     path('api/v1/lotr/', include("lotr_app.urls")),
-    path('api/v1/vd/', include("vd_app.urls")),
+    path('api/v1/wm/', include("wm_app.urls")),
 ]

@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class VdAppConfig(AppConfig):
+class WmAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'vd_app'
+    name = 'wm_app'
